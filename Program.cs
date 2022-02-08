@@ -26,7 +26,7 @@ namespace Totsuzenshi_gen
             res += "＿" + Environment.NewLine;
             res += "＞　" + s + "　＜" + Environment.NewLine;
             res += "￣";
-            for (int i = 0; i < a1; i++)
+            for (int i = 0; i < Math.Round(a1*0.8); i++)
                 res += "^Y";
             res += "￣";
             return res;
